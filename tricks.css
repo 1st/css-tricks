@@ -1,0 +1,21 @@
+/*
+ * Include this css file to your web page.
+ *
+ * @author: Anton Danilchenko <anton.danilchenko@me.com>
+ * @url: https://github.com/1st/css-tricks/
+ */
+
+
+/*
+ * Add 3 dots in end of long lines.
+ *
+ * Used only for single-line text.
+ */
+.tricks.end_dots {
+    white-space: nowrap;
+    overflow: hidden;
+    /* Three dots in end of sting for long lines */
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -moz-binding: url('bindings.xml#ellipsis');
+}
